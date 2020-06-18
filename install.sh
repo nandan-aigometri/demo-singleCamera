@@ -12,7 +12,7 @@ sudo apt-get install -y libqt4-test
 sudo pip3 install flask flask_jsglue flask_sqlalchemy flask_wtf
 sudo pip3 install bcrypt imageio
 sudo pip3 install tensorflow
-#sudo git clone https://github.com/Terkea/secure-pi.git /opt/AISecurityCam
+sudo git clone https://github.com/nandan-aigometri/demo-singleCamera.git /opt/AISecurityCam
 SERVICE_FILE="/lib/systemd/system/AISecurityCam-Aigometri.service"
 echo "Creating the service"
 /bin/cat <<EOM >> $SERVICE_FILE
